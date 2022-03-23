@@ -1,0 +1,29 @@
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8' />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<title>{{title}}</title>
+		<link rel='stylesheet' href='/css/styles.css' />
+	</head>
+	<body>
+		{{>header}}
+		<main>
+		<img src='/images/weather-images.jpg' alt='' />
+
+		<form action="">
+			<input placeholder="Enter location">
+			<button>Search</button>
+		</form>
+		
+		<div class="content">
+			<h2 id="success"></h2>
+			<h4 id="weather"></h4>
+			<h2 id="error"></h2>
+		</div>
+
+		</main>
+		{{>footer}}
+		<script src='/js/app.js'></script>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 600px;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 30px 0;
+}
+
+header a {
+    color: #3f3f3f;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+header a:hover {
+    color: #888888;
+}
+
+footer {
+    padding: 20px 0;
+    color: #888888;
+    border-top: 1px solid grey;
+}
+
+main {
+    flex: 1;
+}
+
+h1 {
+    color: #3f3f3f;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.content {
+    padding-bottom: 30px;
+}
+
+#success {
+    color: #243d25;
+}
+
+#error {
+    color: red;
+}
+
+h4 {
+    color: #3f3f3f;
+}
+
+form {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    min-height: 35px;
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 1px 10px;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 45px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px 10px;
+    color: #fff;
+    background-color: darkblue;
+    border: none;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+img {
+    max-height: 250px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+p {
+    color: grey;
+    font-weight: 500;
+}
