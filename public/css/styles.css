@@ -100,3 +100,19 @@ p {
     color: grey;
     font-weight: 500;
 }
+
+.bigMrgBtm {
+    margin-bottom: 50px;
+}
+
+.smallMrgBtm {
+    margin-bottom: 30px;
+}
+
+.bigMrgTop {
+    margin-top: 50px;
+}
+
+.smallMrgTop {
+    margin-top: 30px;
+}
